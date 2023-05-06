@@ -50,8 +50,6 @@ To run the Application on your local machine, follow these steps:
 
 ## API Details
 
-<br/>
-
 ### **User Login**
 
 **Endpoint: `POST - /api/v1/users/login`**
@@ -92,5 +90,55 @@ To run the Application on your local machine, follow these steps:
 ```json
 {
   "signature": "string"
+}
+```
+### **Get all Tasks**
+
+**Endpoint: `GET - /api/v1/tasks`**
+
+**Request Body:**
+
+```json
+{
+   "signature": "string",
+}
+```
+
+### **Create Task**
+
+**Endpoint: `POST - /api/v1/tasks`**
+
+**Request Body:**
+
+```json
+{
+   "signature": "string",
+   "name": "string"
+}
+```
+
+### **Update Task**
+
+**Endpoint: `PUT - /api/v1/tasks/:id`**
+
+**Request Body:**
+
+```json
+{
+   "signature": "string",
+   "name": "string",
+   "completed": "boolean"
+}
+```
+
+### **Delete Task**
+
+**Endpoint: `DELETE - /api/v1/tasks/:id`**
+
+**Request Body:**
+
+```json
+{
+   "signature": "string"
 }
 ```
