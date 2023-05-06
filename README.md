@@ -32,13 +32,19 @@ To run the Application on your local machine, follow these steps:
    $  echo "MONGO_URL=<mongodb-url-here>" >> .env
    ```
 
-4. Start the server:
+4. Start the mongodb instance locally:
+
+   ```bash
+   $  sudo mongod --dbpath ~/data/db
+   ```
+
+5. Start the server:
 
    ```
    $ npm start
    ```
 
-5. Go to [Localhost](http://localhost:3000) to access the application.
+6. Go to [Localhost](http://localhost:3000) to access the application.
 
    <br />
 
