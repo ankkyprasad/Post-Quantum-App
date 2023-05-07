@@ -2,7 +2,7 @@ const auth = require("../utils/auth");
 const User = require("../model/user.model");
 
 module.exports = async (req, res, next) => {
-  const signature = req.body.signature;
+  const signature = req.cookies.signature
 
   try {
     const token = await auth.verifySignature(signature);

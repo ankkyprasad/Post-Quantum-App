@@ -55,8 +55,11 @@ exports.login = async (req, res) => {
     user.signature = signature;
     await user.save();
 
-    return res.status(201).json({
-      status: "created",
+    return res
+    .cookie("signature", signature, {
+      httpOnly: true,
+    }).status(200).json({
+      status: "login successful",
       signature,
     });
   } catch (err) {
