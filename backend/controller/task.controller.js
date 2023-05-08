@@ -37,7 +37,6 @@ exports.createTask = async (req, res) => {
 
   try {
     const newTask = new Task({ name: name, userId: req.user._id });
-    console.log(newTask);
     await newTask.save();
 
     return res.status(201).json({
@@ -64,8 +63,8 @@ exports.updateTask = async (req, res) => {
         message: "Task does not exist",
       });
 
-    if (name) task.name = name;
-    if (completed) task.completed = completed;
+    if (name !== undefined) task.name = name;
+    if (completed !== undefined) task.completed = completed;
 
     await task.save();
 

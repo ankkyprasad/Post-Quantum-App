@@ -9,16 +9,19 @@ export const Nav = () => {
         <img
           src="https://flowbite.com/docs/images/logo.svg"
           className="mr-3 h-6 sm:h-9"
-          alt="Flowbite Logo"
+          alt="Todo List"
         />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Flowbite
+          Todo List
         </span>
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Navbar.Link>
           <Link to="/">Home</Link>
+        </Navbar.Link>
+        <Navbar.Link>
+          <Link to="/tasks">Task</Link>
         </Navbar.Link>
         <Navbar.Link>
           <Link to="/login">Login</Link>
