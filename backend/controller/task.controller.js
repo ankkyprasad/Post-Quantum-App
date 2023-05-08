@@ -90,7 +90,7 @@ exports.deleteTask = async (req, res) => {
       });
 
     await Task.deleteOne({ _id: taskId, userId: req.user._id });
-    res.status(204).send();
+    res.status(200).send("Deleted successfully");
   } catch (err) {
     res.status(500).json({
       status: "internal server error",

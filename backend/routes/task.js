@@ -16,7 +16,7 @@ router.get("/:id", isAuthenticated, getUniqueTask);
 
 router.post("/", isAuthenticated, createTask);
 
-router.put("/", isAuthenticated, updateTask);
+router.put("/:id", isAuthenticated, updateTask);
 
 router.delete("/:id", isAuthenticated, deleteTask);
 
