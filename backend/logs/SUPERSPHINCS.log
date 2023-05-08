@@ -1,0 +1,36 @@
+POST /api/v1/users/login 4669.830 ms cookie: 1828 bytes response body: 39892 bytes
+POST /api/v1/users/login 4437.693 ms cookie: 1828 bytes response body: 39892 bytes
+POST /api/v1/users/login 4519.296 ms cookie: 1828 bytes response body: 39892 bytes
+POST /api/v1/users/login 4546.862 ms cookie: 1828 bytes response body: 39892 bytes
+POST /api/v1/users/login 5137.192 ms cookie: 1828 bytes response body: 39892 bytes
+GET /api/v1/tasks 3.282 ms cookie: 1828 bytes response body: 25 bytes
+GET /api/v1/tasks 0.560 ms cookie: 1828 bytes response body: 25 bytes
+GET /api/v1/tasks 3.179 ms cookie: 2 bytes response body: 25 bytes
+GET /api/v1/tasks 0.815 ms cookie: 2 bytes response body: 25 bytes
+POST /api/v1/users/login 3924.244 ms cookie: 2 bytes response body: 39892 bytes
+POST /api/v1/users/login 4020.086 ms Signature: - response body: 39892 bytes
+POST /api/v1/users/login 3810.531 ms Signature: - response body: 39892 bytes
+POST /api/v1/users/login 4006.758 ms cookie: 2 bytes response body: 39892 bytes
+GET /api/v1/tasks 11.266 ms cookie: 2 bytes response body: 25 bytes
+GET /api/v1/tasks 11.216 ms cookie: 2 bytes response body: 25 bytes
+GET /api/v1/tasks 6.879 ms cookie: 2 bytes response body: 25 bytes
+POST /api/v1/users/login 4637.464 ms cookie: 2 bytes response body: 39892 bytes
+GET /api/v1/tasks 39.268 ms cookie: 2 bytes response body: 590 bytes
+GET /api/v1/tasks 34.539 ms cookie: 2 bytes response body: -
+GET /api/v1/tasks 61.328 ms cookie: 2 bytes response body: -
+DELETE /api/v1/tasks/6458ea75195e9ed518e6e303 44.209 ms cookie: 2 bytes response body: 20 bytes
+GET /api/v1/tasks 19.574 ms cookie: 2 bytes response body: 471 bytes
+PUT /api/v1/tasks/6458ed7c0c753bcd4eb8f553 27.657 ms cookie: 2 bytes response body: 119 bytes
+GET /api/v1/tasks 20.891 ms cookie: 2 bytes response body: 470 bytes
+PUT /api/v1/tasks/6458eb87058768aa8e3a933f 22.197 ms cookie: 2 bytes response body: 126 bytes
+GET /api/v1/tasks 18.024 ms cookie: 2 bytes response body: 469 bytes
+PUT /api/v1/tasks/6458eb87058768aa8e3a933f 18.004 ms cookie: 2 bytes response body: 127 bytes
+GET /api/v1/tasks 20.732 ms cookie: 2 bytes response body: 470 bytes
+PUT /api/v1/tasks/6458f62e8c8bbb5196e3acb1 19.028 ms cookie: 2 bytes response body: 126 bytes
+GET /api/v1/tasks 17.863 ms cookie: 2 bytes response body: 469 bytes
+PUT /api/v1/tasks/6458ed7c0c753bcd4eb8f553 19.595 ms cookie: 2 bytes response body: 120 bytes
+GET /api/v1/tasks 17.642 ms cookie: 2 bytes response body: 470 bytes
+PUT /api/v1/tasks/6458f62e8c8bbb5196e3acb1 24.812 ms cookie: 2 bytes response body: 127 bytes
+GET /api/v1/tasks 17.925 ms cookie: 2 bytes response body: 471 bytes
+PUT /api/v1/tasks/6458eb87058768aa8e3a933f 24.524 ms cookie: 2 bytes response body: 126 bytes
+GET /api/v1/tasks 16.279 ms cookie: 2 bytes response body: 470 bytes

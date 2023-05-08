@@ -55,15 +55,10 @@ exports.login = async (req, res) => {
     user.signature = signature;
     await user.save();
 
-    return res
-      .cookie("signature", signature, {
-        httpOnly: true,
-      })
-      .status(200)
-      .json({
-        status: "login successful",
-        signature,
-      });
+    return res.status(200).json({
+      status: "login successful",
+      signature,
+    });
   } catch (err) {
     res.status(500).json({
       status: "internal server error",
@@ -105,10 +100,15 @@ exports.logout = async (req, res) => {
     user.signature = "";
     await user.save();
 
-    return res.status(200).send({
-      status: "success",
-      message: "logged out successfully",
-    });
+    return res
+      .cookie("signature", "", {
+        httpOnly: true,
+      })
+      .status(200)
+      .send({
+        status: "success",
+        message: "logged out successfully",
+      });
   } catch (err) {
     res.status(500).json({
       status: "internal server error",

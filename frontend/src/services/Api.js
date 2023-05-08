@@ -46,6 +46,7 @@ export const dashboard = async () => {
     url: `${url}/dashboard`,
     headers: {
       "Content-Type": "application/json",
+      authorization: `Bearer ${localStorage.getItem("signature")}`,
     },
     withCredentials: true,
   };
@@ -65,6 +66,7 @@ export const getAllTask = async () => {
     url: `${url}/tasks`,
     headers: {
       "Content-Type": "application/json",
+      authorization: `Bearer ${localStorage.getItem("signature")}`,
     },
     withCredentials: true,
   };
@@ -84,6 +86,7 @@ export const createTask = async (data) => {
     url: `${url}/tasks`,
     headers: {
       "Content-Type": "application/json",
+      authorization: `Bearer ${localStorage.getItem("signature")}`,
     },
     withCredentials: true,
     data,
@@ -104,6 +107,7 @@ export const updateTask = async (data, id) => {
     url: `${url}/tasks/${id}`,
     headers: {
       "Content-Type": "application/json",
+      authorization: `Bearer ${localStorage.getItem("signature")}`,
     },
     withCredentials: true,
     data,
@@ -124,6 +128,7 @@ export const deleteTask = async (id) => {
     url: `${url}/tasks/${id}`,
     headers: {
       "Content-Type": "application/json",
+      authorization: `Bearer ${localStorage.getItem("signature")}`,
     },
     withCredentials: true,
   };

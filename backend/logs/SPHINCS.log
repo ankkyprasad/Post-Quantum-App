@@ -1,0 +1,11 @@
+GET /api/v1/tasks 20.607 ms cookie: 1828 bytes response body: 25 bytes
+POST /api/v1/users/login 122.468 ms cookie: - bytes response body: 54748 bytes
+GET /api/v1/tasks 17.321 ms cookie: 1828 bytes response body: 25 bytes
+POST /api/v1/users/login 154.264 ms cookie: 1828 bytes response body: 54748 bytes
+GET /api/v1/tasks 21.572 ms cookie: 1828 bytes response body: 25 bytes
+GET /api/v1/tasks 19.460 ms cookie: 1828 bytes response body: 25 bytes
+POST /api/v1/users/login 237.381 ms cookie: 1828 bytes response body: 54748 bytes
+GET /api/v1/tasks 21.576 ms cookie: 1828 bytes response body: 25 bytes
+GET /api/v1/tasks 8.826 ms cookie: 1828 bytes response body: 25 bytes
+POST /api/v1/users/login 150.691 ms cookie: 2 bytes response body: 54748 bytes
+GET /api/v1/dashboard 2.898 ms cookie: 2 bytes response body: 25 bytes

@@ -6,6 +6,8 @@ if (process.env.CRYPTO_LIBRARY == "DILITHIUM") {
   cryptoLibrary = require("sphincs-legacy");
 } else if (process.env.CRYPTO_LIBRARY == "SUPERSPHINCS") {
   cryptoLibrary = require("supersphincs");
+} else if (process.env.CRYPTO_LIBRARY == "SUPERDILITHIUM") {
+  cryptoLibrary = require("superdilithium");
 } else {
   cryptoLibrary = require("falcon-crypto");
 }

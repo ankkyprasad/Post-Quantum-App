@@ -1,0 +1,121 @@
+POST /api/v1/users/login 35.457 ms cookie: 1828 bytes response body: 1856 bytes
+GET /api/v1/tasks 9.887 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 29.458 ms cookie: 1828 bytes response body: -
+PUT /api/v1/tasks/6458ea75195e9ed518e6e303 7.603 ms cookie: 1828 bytes response body: 126 bytes
+GET /api/v1/tasks 4.448 ms cookie: 1828 bytes response body: 471 bytes
+PUT /api/v1/tasks/6458ea75195e9ed518e6e303 55.069 ms cookie: 1828 bytes response body: 127 bytes
+GET /api/v1/tasks 5.527 ms cookie: 1828 bytes response body: 472 bytes
+PUT /api/v1/tasks/6458eb87058768aa8e3a933f 6.223 ms cookie: 1828 bytes response body: 126 bytes
+PUT /api/v1/tasks/6458eb87058768aa8e3a933f 28.346 ms cookie: 1828 bytes response body: 126 bytes
+GET /api/v1/tasks 3.743 ms cookie: 1828 bytes response body: 471 bytes
+GET /api/v1/tasks 4.143 ms cookie: 1828 bytes response body: -
+PUT /api/v1/tasks/6458ed7c0c753bcd4eb8f553 5.860 ms cookie: 1828 bytes response body: 119 bytes
+GET /api/v1/tasks 4.610 ms cookie: 1828 bytes response body: 470 bytes
+PUT /api/v1/tasks/6458ed7c0c753bcd4eb8f553 5.297 ms cookie: 1828 bytes response body: 120 bytes
+GET /api/v1/tasks 4.308 ms cookie: 1828 bytes response body: 471 bytes
+PUT /api/v1/tasks/6458edca4cc57659b9531f72 5.256 ms cookie: 1828 bytes response body: 119 bytes
+GET /api/v1/tasks 4.156 ms cookie: 1828 bytes response body: 470 bytes
+PUT /api/v1/tasks/6458eb87058768aa8e3a933f 20.910 ms cookie: 1828 bytes response body: 127 bytes
+GET /api/v1/tasks 3.676 ms cookie: 1828 bytes response body: 471 bytes
+POST /api/v1/users/login 167.371 ms cookie: 2 bytes response body: 1856 bytes
+POST /api/v1/users/login 53.513 ms cookie: 2 bytes response body: 1856 bytes
+GET /api/v1/dashboard 11.841 ms cookie: 1828 bytes response body: 41 bytes
+GET /api/v1/dashboard 6.548 ms cookie: 1828 bytes response body: 41 bytes
+POST /api/v1/tasks/ 19.314 ms cookie: 1828 bytes response body: 146 bytes
+POST /api/v1/users/logout 19.075 ms cookie: 1828 bytes response body: 103 bytes
+POST /api/v1/users/logout 5.521 ms cookie: 1828 bytes response body: 25 bytes
+POST /api/v1/users/logout 0.885 ms cookie: 1828 bytes response body: 25 bytes
+POST /api/v1/users/login 56.425 ms cookie: 1828 bytes response body: 1856 bytes
+POST /api/v1/users/logout 9.433 ms cookie: 1828 bytes response body: 56 bytes
+POST /api/v1/users/login 17.407 ms cookie: 16 bytes response body: 1856 bytes
+POST /api/v1/users/login 53.806 ms cookie: 1828 bytes response body: 1856 bytes
+POST /api/v1/users/logout 8.297 ms cookie: 1828 bytes response body: 56 bytes
+GET /api/v1/tasks 0.951 ms cookie: 1828 bytes response body: 25 bytes
+GET /api/v1/tasks 1.832 ms cookie: 1828 bytes response body: 25 bytes
+POST /api/v1/users/login 55.319 ms cookie: 1828 bytes response body: 1856 bytes
+GET /api/v1/tasks 12.276 ms cookie: 1828 bytes response body: 709 bytes
+GET /api/v1/tasks 16.360 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 14.404 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 8.108 ms cookie: 1828 bytes response body: -
+POST /api/v1/users/login 21.180 ms cookie: 1828 bytes response body: 1856 bytes
+GET /api/v1/tasks 13.568 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 28.314 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 3.868 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 24.204 ms cookie: 1828 bytes response body: -
+POST /api/v1/users/login 22.572 ms cookie: 1828 bytes response body: 1856 bytes
+GET /api/v1/tasks 6.925 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 12.414 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 49.682 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 30.151 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 8.219 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 11.358 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 6.632 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 13.436 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 3.760 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 32.163 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 13.313 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 5.615 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 7.622 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 16.491 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 6.265 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 5.245 ms cookie: 1828 bytes response body: -
+POST /api/v1/users/login 58.600 ms cookie: 1828 bytes response body: 1856 bytes
+GET /api/v1/tasks 4.388 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 5.348 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 965.977 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 68.668 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 30.740 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 70.936 ms cookie: 1828 bytes response body: -
+POST /api/v1/users/login 27.679 ms cookie: 1828 bytes response body: 1856 bytes
+GET /api/v1/tasks 12.593 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 11.190 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 8.259 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 56.497 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 9.173 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 4.179 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 8.822 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 3.563 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 3.782 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 14.129 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 18.518 ms cookie: 1828 bytes response body: 25 bytes
+GET /api/v1/tasks 3.919 ms cookie: 1828 bytes response body: 25 bytes
+POST /api/v1/users/login 34.205 ms cookie: 1828 bytes response body: 1856 bytes
+GET /api/v1/tasks 16.463 ms cookie: 1828 bytes response body: -
+POST /api/v1/users/login 51.131 ms cookie: 1828 bytes response body: 1856 bytes
+GET /api/v1/tasks 21.361 ms cookie: 1828 bytes response body: 709 bytes
+GET /api/v1/tasks 25.576 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 14.355 ms cookie: 1828 bytes response body: -
+GET /api/v1/dashboard 8.288 ms cookie: 1828 bytes response body: 41 bytes
+GET /api/v1/dashboard 2142.896 ms cookie: 1828 bytes response body: -
+POST /api/v1/users/login 61.492 ms cookie: 1828 bytes response body: 1856 bytes
+GET /api/v1/tasks 13.066 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 31.241 ms cookie: 1828 bytes response body: -
+GET /api/v1/dashboard 24.688 ms cookie: 1828 bytes response body: -
+GET /api/v1/dashboard 7.262 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 58.290 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 42.313 ms cookie: 1828 bytes response body: -
+DELETE /api/v1/tasks/6458f812dbbf1cc1863e5546 74.616 ms cookie: 1828 bytes response body: 20 bytes
+GET /api/v1/tasks 16.424 ms cookie: 1828 bytes response body: 590 bytes
+GET /api/v1/tasks 6.055 ms cookie: 1828 bytes response body: 25 bytes
+POST /api/v1/users/login 64.196 ms cookie: 1828 bytes response body: 1856 bytes
+GET /api/v1/tasks 12.453 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 13.103 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 25.580 ms cookie: 1828 bytes response body: 25 bytes
+GET /api/v1/tasks 2.982 ms cookie: 1828 bytes response body: 25 bytes
+POST /api/v1/users/login 45.836 ms cookie: 1828 bytes response body: 1856 bytes
+GET /api/v1/tasks 11.862 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 5.935 ms cookie: 1828 bytes response body: 25 bytes
+GET /api/v1/tasks 1.017 ms cookie: 1828 bytes response body: 25 bytes
+POST /api/v1/users/login 11.415 ms cookie: 1828 bytes response body: 65 bytes
+POST /api/v1/users/login 31.271 ms cookie: 1828 bytes response body: 1856 bytes
+GET /api/v1/tasks 25.127 ms cookie: 1828 bytes response body: -
+GET /api/v1/tasks 4.748 ms cookie: 1828 bytes response body: 25 bytes
+GET /api/v1/tasks 1.667 ms cookie: 1828 bytes response body: 25 bytes
+GET /api/v1/tasks 0.599 ms cookie: 2 bytes response body: 25 bytes
+GET /api/v1/tasks 3.201 ms cookie: 2 bytes response body: 25 bytes
+POST /api/v1/users/login 38.866 ms cookie: 2 bytes response body: 1856 bytes
+GET /api/v1/tasks 8.921 ms cookie: 2 bytes response body: -
+GET /api/v1/tasks 15.223 ms cookie: 2 bytes response body: -
+GET /api/v1/tasks 7.468 ms cookie: 2 bytes response body: -
+POST /api/v1/users/login 21.799 ms cookie: 16 bytes response body: 1856 bytes
+GET /api/v1/dashboard 21.676 ms cookie: 16 bytes response body: 41 bytes

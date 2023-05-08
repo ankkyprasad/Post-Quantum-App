@@ -13,6 +13,7 @@ export const Login = () => {
 
   const mutation = useMutation({
     mutationFn: (data) => {
+      console.log(data);
       return loginUser(data);
     },
     onSuccess: (response) => {
@@ -20,6 +21,7 @@ export const Login = () => {
         return alert("Something went wrong, Try again!");
       else {
         console.log("response: ", response);
+        localStorage.setItem("signature", response.data.signature);
         navigate("/tasks");
       }
     },

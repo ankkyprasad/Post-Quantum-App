@@ -8,6 +8,7 @@ const {
   register,
   logout,
 } = require("../controller/user.controller");
+const isAuthenticated = require("../middleware/isAuthenticated");
 
 router.get("/", getAllUser);
 
@@ -19,6 +20,6 @@ router.post("/login", login);
 
 router.post("/register", register);
 
-router.post("/logout", logout);
+router.post("/logout", isAuthenticated, logout);
 
 module.exports = router;
