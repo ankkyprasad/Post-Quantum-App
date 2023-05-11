@@ -14,3 +14,27 @@ GET /api/v1/tasks 0.528 ms cookie: 2 bytes response body: 25 bytes
 GET /api/v1/tasks 0.735 ms cookie: 2 bytes response body: 25 bytes
 POST /api/v1/users/login 17.974 ms cookie: 2 bytes response body: 6296 bytes
 GET /api/v1/tasks 7.919 ms cookie: 2 bytes response body: -
+POST /api/v1/users/register 201 , header-size: 198 bytes , response-body: 217 bytes - 20.529 ms
+POST /api/v1/users/register 422 , header-size: 198 bytes , response-body: 70 bytes - 3.047 ms
+POST /api/v1/users/login 200 , header-size: 198 bytes , response-body: 6296 bytes - 9.807 ms
+POST /api/v1/users/login 400 , header-size: 198 bytes , response-body: 65 bytes - 2.672 ms
+GET /api/v1/tasks 200 , header-size: 6419 bytes , response-body: 11 bytes - 7.327 ms
+GET /api/v1/tasks 401 , header-size: 199 bytes , response-body: 25 bytes - 0.405 ms
+POST /api/v1/tasks 201 , header-size: 6475 bytes , response-body: 155 bytes - 5.809 ms
+POST /api/v1/tasks 401 , header-size: 255 bytes , response-body: 25 bytes - 0.269 ms
+PUT /api/v1/tasks/6459d8ebc88f2601d2586581 200 , header-size: 6475 bytes , response-body: 135 bytes - 6.944 ms
+PUT /api/v1/tasks/6459d8ebc88f2601d2586581 401 , header-size: 255 bytes , response-body: 25 bytes - 0.461 ms
+DELETE /api/v1/tasks/6459d8ebc88f2601d2586581 401 , header-size: 199 bytes , response-body: 25 bytes - 0.276 ms+
+DELETE /api/v1/tasks/6459d8ebc88f2601d2586581 200 , header-size: 6419 bytes , response-body: 20 bytes - 6.973 ms
+POST /api/v1/users/register 201 , header-size: 198 bytes , response-body: 217 bytes - 18.994 ms
+POST /api/v1/users/register 422 , header-size: 198 bytes , response-body: 70 bytes - 3.293 ms
+POST /api/v1/users/login 200 , header-size: 198 bytes , response-body: 6296 bytes - 9.047 ms
+POST /api/v1/users/login 400 , header-size: 198 bytes , response-body: 65 bytes - 2.377 ms
+GET /api/v1/tasks 200 , header-size: 6419 bytes , response-body: 11 bytes - 7.488 ms
+GET /api/v1/tasks 401 , header-size: 199 bytes , response-body: 25 bytes - 0.418 ms
+POST /api/v1/tasks 201 , header-size: 6475 bytes , response-body: 155 bytes - 6.335 ms
+POST /api/v1/tasks 401 , header-size: 255 bytes , response-body: 25 bytes - 0.301 ms
+PUT /api/v1/tasks/6459da126830ac41f9ba6cc8 200 , header-size: 6475 bytes , response-body: 135 bytes - 11.948 ms
+PUT /api/v1/tasks/6459da126830ac41f9ba6cc8 401 , header-size: 255 bytes , response-body: 25 bytes - 0.508 ms
+DELETE /api/v1/tasks/6459da126830ac41f9ba6cc8 401 , header-size: 199 bytes , response-body: 25 bytes - 0.499 ms
+DELETE /api/v1/tasks/6459da126830ac41f9ba6cc8 200 , header-size: 6419 bytes , response-body: 20 bytes - 6.852 ms
