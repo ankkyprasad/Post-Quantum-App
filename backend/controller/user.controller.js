@@ -1,5 +1,6 @@
 const User = require("../model/user.model");
 const auth = require("../utils/auth");
+const bcrypt = require("bcrypt");
 
 exports.getAllUser = async (req, res) => {
   try {
@@ -42,7 +43,10 @@ exports.login = async (req, res) => {
 
   try {
     const user = await User.findOne({ email: email });
-    if (!user || user.password !== password) {
+
+    const isPasswordCorrect = await bcrypt.compare(password, user.password);
+
+    if (!user || !isPasswordCorrect) {
       return res.status(400).json({
         status: "bad request",
         message: "invalid username or password",
@@ -79,7 +83,9 @@ exports.register = async (req, res) => {
       });
     }
 
-    const newUser = new User({ name, email, password });
+    const hashedPassword = await bcrypt.hash(password, 8);
+
+    const newUser = new User({ name, email, password: hashedPassword });
     await newUser.save();
 
     return res.status(201).json({
