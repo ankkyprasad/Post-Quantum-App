@@ -6,6 +6,7 @@ const fs = require("fs");
 const path = require("path");
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
+const helmet = require("helmet");
 
 require("dotenv").config();
 require("./db/mongoose");
@@ -24,6 +25,8 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json({ limit: "100mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "100mb", extended: false }));
 app.use(cookieParser());
+
+app.use(helment());
 
 app.use((req, res, next) => {
   const oldWrite = res.write;
