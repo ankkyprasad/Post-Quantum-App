@@ -1,0 +1,12 @@
+POST,/api/v1/users/register,201,198,217,36.004
+POST,/api/v1/users/register,422,198,70,3.613
+POST,/api/v1/users/login,200,198,236,18.093
+POST,/api/v1/users/login,400,198,65,1.626
+GET,/api/v1/tasks,200,359,11,8.955
+GET,/api/v1/tasks,500,199,60,0.358
+POST,/api/v1/tasks,201,415,155,6.919
+POST,/api/v1/tasks,500,255,60,0.440
+PUT,/api/v1/tasks/6463c853b862b9e06b300874,200,415,135,12.334
+PUT,/api/v1/tasks/6463c853b862b9e06b300874,500,255,60,0.395
+DELETE,/api/v1/tasks/6463c853b862b9e06b300874,500,199,60,0.241
+DELETE,/api/v1/tasks/6463c853b862b9e06b300874,200,359,20,7.136

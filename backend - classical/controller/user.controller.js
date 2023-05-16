@@ -49,7 +49,12 @@ exports.login = async (req, res) => {
       });
     }
 
-    const signature = await jwt.sign({ _id: user._id }, process.env.SECRET);
+    const algorithm = process.env.ALGORITHM || "HS256";
+    const signature = await jwt.sign(
+      { _id: user._id },
+      process.env.PRIVATE_KEY,
+      { algorithm }
+    );
 
     user.signature = signature;
     await user.save();

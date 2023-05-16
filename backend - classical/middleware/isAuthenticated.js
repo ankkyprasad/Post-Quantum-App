@@ -8,7 +8,10 @@ module.exports = async (req, res, next) => {
     req.cookies.signature;
 
   try {
-    const decoded = jwt.verify(signature, process.env.SECRET);
+    const algorithm = process.env.ALGORITHM || "HS256";
+    const decoded = jwt.verify(signature, process.env.PUBLIC_KEY, {
+      algorithm,
+    });
 
     const userId = decoded._id;
     const user = await User.findOne({ _id: userId });

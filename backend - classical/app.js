@@ -13,7 +13,7 @@ require("./db/mongoose");
 app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 
 const accessLogStream = fs.createWriteStream(
-  path.join(__dirname, `./logs/jwt.log`),
+  path.join(__dirname, `./logs/${process.env.ALGORITHM}.log`),
   {
     flags: "a",
   }
@@ -52,17 +52,6 @@ morgan.token("resBodySize", (req, res) => {
 
 const logData = (tokens, req, res) => {
   const headersSize = Buffer.byteLength(JSON.stringify(req.headers));
-  // return [
-  //   tokens.method(req, res),
-  //   tokens.url(req, res),
-  //   tokens.status(req, res),
-  //   `, header-size: ${headersSize} bytes`,
-  //   `, response-body: ${res.bodySize} bytes`,
-  //   "-",
-  //   tokens["response-time"](req, res),
-  //   "ms",
-  // ].join(" ");
-
   return [
     tokens.method(req, res),
     tokens.url(req, res),
